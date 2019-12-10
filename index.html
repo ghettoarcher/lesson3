@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     
+
+<script>
+    
+    var ageAnswer = prompt ("Сколько вам лет?");
+		if(ageAnswer > 10 && ageAnswer < 11 ){ 
+			alert("Вам " + ageAnswer + ' лет');
+		} else{ 
+            if( ageAnswer % 10 === 2 || ageAnswer % 10 === 3 || ageAnswer % 10 === 4 ){
+		  alert("Вам " + ageAnswer + ' года');
+		  }else if(ageAnswer % 10 === 0 || ageAnswer % 10 === 5 || ageAnswer % 10 === 6 || ageAnswer % 10 === 7 || ageAnswer % 10 === 8|| ageAnswer % 10 === 9){
+				alert("Вам " + ageAnswer + ' лет');
+			}else if(ageAnswer % 10 === 1){
+				alert("Вам " + ageAnswer + ' год');
+            }else{
+            alert("Вы ввели неправильный возраст");
+        }
+        }
+
+    </script>
+
+</body>
+</html>
